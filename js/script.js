@@ -25,4 +25,16 @@ document.getElementById('edinson-cavani').addEventListener('click', function () 
 })
 document.getElementById('renato-sanches').addEventListener('click', function () {
     selectedPlayer('renato-sanches-heading', 'renato-sanches');
+
 })
+document.getElementById('calculate-btn').addEventListener('click', function () {
+    const perPlayerPriceContainer = document.getElementById('per-player-price-id');
+    const perPlayerPriceString = perPlayerPriceContainer.value;
+    const perPlayerPrice = parseFloat(perPlayerPriceString);
+    const countElement = document.querySelectorAll('li');
+    const countElementLength = countElement.length;
+    const totalExpenses = perPlayerPrice * countElementLength;
+    const totalExpensesContainer = document.getElementById('total-expenses');
+    totalExpensesContainer.innerText = totalExpenses;
+})
+
