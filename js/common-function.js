@@ -11,3 +11,6 @@ function selectedPlayer(playerId, btnId) {
     selectedbtnId.style.backgroundColor = "grey";
     listItemContainer.appendChild(creatListitem);
 }
+function managerAndCoach() {
+
+}

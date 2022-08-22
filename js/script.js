@@ -33,8 +33,27 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     const perPlayerPrice = parseFloat(perPlayerPriceString);
     const countElement = document.querySelectorAll('li');
     const countElementLength = countElement.length;
+    if (countElementLength == '5') {
+        alert('You are selected alreay 5')
+    }
     const totalExpenses = perPlayerPrice * countElementLength;
     const totalExpensesContainer = document.getElementById('total-expenses');
     totalExpensesContainer.innerText = totalExpenses;
 })
+document.getElementById('calculate-total-btn').addEventListener('click', function () {
+    const totalExpensesContainers = document.getElementById('total-expenses');
+    const totalExpensesNumber = totalExpensesContainers.innerText;
+    const totalExpensesAmount = parseFloat(totalExpensesNumber);
 
+    const managerSalaryContainer = document.getElementById('manager-salary-id');
+    const managerSalaryString = managerSalaryContainer.value;
+    const managerSalary = parseFloat(managerSalaryString);
+
+    const coachSalaryContainer = document.getElementById('coach-salary-id');
+    const coachSalaryString = coachSalaryContainer.value;
+    const coachSalary = parseFloat(coachSalaryString);
+
+    const inTotalExpensesContainer = document.getElementById('total-expenses-amount');
+    const inTotalExpenses = totalExpensesAmount + managerSalary + coachSalary;
+    inTotalExpensesContainer.innerText = inTotalExpenses;
+})
