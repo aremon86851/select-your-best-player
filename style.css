@@ -46,3 +46,10 @@ ol li::marker {
 .player-content img {
     height: 170px;
 }
+
+/* Sidebar */
+.selectect-container {
+    background-image: url(images/Ureg-Ureg\ Marker.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
