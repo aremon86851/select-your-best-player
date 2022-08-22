@@ -29,3 +29,20 @@
 .header-right-img {
     margin-top: 50px;
 }
+
+
+/* Main area */
+.main-bg-color {
+    background-color: #151515e6;
+}
+
+ol li::marker {
+    color: grey;
+    font-size: 20px;
+    padding: 100px;
+}
+
+/* Player area */
+.player-content img {
+    height: 170px;
+}
