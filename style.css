@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
+/* Header Area */
 .heading-font {
     font-family: 'Lobster Two', cursive;
 }
@@ -11,7 +12,7 @@
 }
 
 .header-mid-font {
-    font-size: 75px !important;
+    font-size: 73px !important;
 }
 
 .header-mid-heading {
@@ -30,16 +31,9 @@
     margin-top: 50px;
 }
 
-
 /* Main area */
 .main-bg-color {
     background-color: #151515e6;
-}
-
-ol li::marker {
-    color: grey;
-    font-size: 20px;
-    padding: 100px;
 }
 
 /* Player area */
@@ -52,4 +46,10 @@ ol li::marker {
     background-image: url(images/Ureg-Ureg\ Marker.png);
     background-repeat: no-repeat;
     background-position: bottom center;
+}
+
+ol li::marker {
+    color: grey;
+    font-size: 20px;
+    padding: 100px;
 }
