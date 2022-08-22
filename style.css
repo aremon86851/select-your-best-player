@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+.heading-font {
+    font-family: 'Lobster Two', cursive;
+}
+
+.header-left {
+    background-image: url(images/path56.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-mid-font {
+    font-size: 75px !important;
+}
+
+.header-mid-heading {
+    background-image: url(images/Line\ Marker.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.header-right {
+    background-image: url(images/Background.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.header-right-img {
+    margin-top: 50px;
+}
